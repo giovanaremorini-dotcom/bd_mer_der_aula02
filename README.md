@@ -9,24 +9,21 @@
 | ------------- | ---------------- | ------- | ------- | ------------------------------------ |
 | Paciente      | id               | INT     | -       | Identificador único do paciente      |
 | Paciente      | nome             | VARCHAR | 100     | Nome completo do paciente            |
-| Paciente      | cpf              | VARCHAR | 14      | CPF do paciente                      |
-| Paciente      | data_nascimento  | DATE    | -       | Data de nascimento                   |
+| Paciente      | RG               | VARCHAR | 14      | RG do paciente                       |
+| Paciente      | idade            | INT     | -       | Idade de nascimento                  |
 | Paciente      | telefone         | VARCHAR | 20      | Telefone do paciente                 |
-| Paciente      | email            | VARCHAR | 100     | E-mail do paciente                   |
+| Paciente      | altura           | DECIMAL | 10,2    | Altura do paciente                   |
+| Paciente      | peso             | DECIMAL | 10,2    | Peso do paciente                     |
 | Médico        | id               | INT     | -       | Identificador único do médico        |
 | Médico        | nome             | VARCHAR | 100     | Nome completo do médico              |
-| Médico        | crm              | VARCHAR | 20      | Registro profissional do médico      |
-| Médico        | telefone         | VARCHAR | 20      | Telefone do médico                   |
-| Médico        | email            | VARCHAR | 100     | E-mail do médico                     |
-| Médico        | id_especialidade | INT     | -       | Especialidade do médico              |
-| Especialidade | id_especialidade | INT     | -       | Identificador único da especialidade |
-| Especialidade | nome             | VARCHAR | 100     | Nome da especialidade                |
-| Consulta      | id               | INT     | -       | PK    | Identificador único da consulta      |
-| Consulta      | data_consulta    | DATE    | -       | -     | Data da consulta                     |
-| Consulta      | horario          | TIME    | -       | -     | Horário da consulta                  |
-| Consulta      | sala             | VARCHAR | 30      | -     | Situação da consulta                 |
-| Consulta      | id_paciente      | INT     | -       | FK    | Paciente relacionado à consulta      |
-| Consulta      | id_medico        | INT     | -       | FK    | Médico responsável pela consulta     |
+| Médico        | endereço         | VARCHAR | 20      | Endereço da consulta com o médico    |
+| Médico        | especialização   | VARCHAR | 20      | Especialização do médico             |
+| Consulta      | id               | INT     | -       | Identificador único da consulta      |
+| Consulta      | data             | DATE    | -       | Data da consulta                     |
+| Consulta      | horario          | TIME    | -       | Horário da consulta                  |
+| Consulta      | sala             | VARCHAR | 30      | Sala da consulta                     |
+| Consulta      | id_paciente      | INT     | -       | Paciente relacionado à consulta      |
+| Consulta      | id_medico        | INT     | -       | Médico responsável pela consulta     |
 
 
 ## Dados de teste em CSV
