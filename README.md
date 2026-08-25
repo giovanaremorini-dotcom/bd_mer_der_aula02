@@ -1,7 +1,7 @@
 
 # Projeto: Clinica - banco de dados
 
-![MER DER Conceitual e Lógica](./Atividade 4 aul02.png)
+![MER DER Conceitual e Lógica](./A)
 
 ## Dicionário de Dados
 
