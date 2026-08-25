@@ -28,4 +28,7 @@
 
 
 ## Dados de teste em CSV
-[MER_DER_excel.csv](./MER_DER_excel.CSV)
+- [animal.csv](./animal.CSV)
+- [consulta.csv](./consulta.CSV)
+- [dono.csv](./dono.CSV)
+- [veterinario.csv](./veterinario.CSV)
