@@ -1,7 +1,8 @@
 
 # Projeto: Clinica - banco de dados
 
-![MER DER Conceitual e Lógica](./MER_DER_diagrama.png)
+![MER DER Conceitual](./MER_diagrama.png)
+![MER DER Lógico](./DER_diagrama.png)
 
 ## Dicionário de Dados
 
