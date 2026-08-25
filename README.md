@@ -28,7 +28,7 @@
 
 
 ## Dados de teste em CSV
-- [animal.csv](./animal.CSV)
-- [consulta.csv](./consulta.CSV)
-- [dono.csv](./dono.CSV)
-- [veterinario.csv](./veterinario.CSV)
+- [Paciente.csv](./Paciente.CSV)
+- [Médico.csv](./Médico.CSV)
+- [Clínica.csv](./Clínica.CSV)
+- [Consulta.csv](./Consulta.CSV)
